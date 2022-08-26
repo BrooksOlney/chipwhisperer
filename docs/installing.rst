@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _install:
 
 ############
@@ -379,3 +380,12 @@ You should now be able to open the VM and connect to :code:`<eth0 IP>:8888`, rep
 
  
 
+=======
+
+##################
+Deprecated Install
+##################
+
+.. warning:: Deprecated page. See :ref:`install`. If you were linked here by a ChipWhisperer/NewAE website, please contact
+            support@newae.com with a link to the page that brought you here.
+>>>>>>> 472949068b6a25514b25f18da3e71c39b06c8fcc

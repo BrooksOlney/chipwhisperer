@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _api:
 
 ###
@@ -1095,3 +1096,11 @@ Calculate the signal-to-noise ratio of your captured traces::
 
 
 
+=======
+##################
+Deprecated API
+##################
+
+.. warning:: Deprecated page. See :ref:`api`. If you were linked here by a ChipWhisperer/NewAE website, please contact
+            support@newae.com with a link to the page that brought you here.
+>>>>>>> 472949068b6a25514b25f18da3e71c39b06c8fcc

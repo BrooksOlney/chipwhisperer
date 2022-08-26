@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _prerequisites:
 
 #############
@@ -322,3 +323,12 @@ You are now ready for :ref:`installing <install-repo>` ChipWhisperer.
 
 .. _Python Software Foundation's website: https://www.python.org/downloads/mac-osx/
 .. _ARM website: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+=======
+
+########################
+Deprecated Prerequisites
+########################
+
+.. warning:: Deprecated page. See :ref:`install`. If you were linked here by a ChipWhisperer/NewAE website, please contact
+            support@newae.com with a link to the page that brought you here.
+>>>>>>> 472949068b6a25514b25f18da3e71c39b06c8fcc

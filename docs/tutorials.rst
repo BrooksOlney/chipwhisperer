@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _tutorials:
 
 #########
@@ -281,3 +282,13 @@ attack encryption algorithms as well. This set of labs
 explores three different fault attacks against AES, 
 as well as one against RSA.
 
+=======
+
+########################
+Deprecated Tutorials
+########################
+
+.. warning:: Deprecated page. See `<https://github.com/newaetech/ChipWhisperer-Test-Results>`_. 
+            If you were linked here by a ChipWhisperer/NewAE website, please contact
+            support@newae.com with a link to the page that brought you here.
+>>>>>>> 472949068b6a25514b25f18da3e71c39b06c8fcc
