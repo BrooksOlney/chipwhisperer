@@ -367,7 +367,7 @@ class OpenADCInterface(util.DisableNewAttr):
     def triggerNow(self):
         initial = self.settings(True)
         self.setSettings(initial | SETTINGS_TRIG_NOW)
-        time.sleep(0.05)
+        time.sleep(0.0001)
         self.setSettings(initial & ~SETTINGS_TRIG_NOW)
 
     def getStatus(self):

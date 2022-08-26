@@ -133,7 +133,7 @@ class CW305(TargetTemplate, ChipWhispererCommonInterface):
 
         self._woffset_sam3U = 0x000
         self.default_verilog_defines = 'cw305_defines.v'
-        self.default_verilog_defines_full_path = os.path.dirname(cw.__file__) +  '/../../hardware/victims/cw305_artixtarget/fpga/common/' + self.default_verilog_defines
+        self.default_verilog_defines_full_path = os.path.dirname(cw.__file__).replace("\\", "/") +  '/../../hardware/victims/cw305_artixtarget/fpga/common/' + self.default_verilog_defines
         self.registers = 12 # number of registers we expect to find
         self.bytecount_size = 7 # pBYTECNT_SIZE in Verilog
 
@@ -346,6 +346,8 @@ class CW305(TargetTemplate, ChipWhispererCommonInterface):
                     verilog_defines = [getsome(self.default_verilog_defines)]
             else:
                 verilog_defines = defines_files
+            
+            
             self.slurp_defines(verilog_defines)
 
 
@@ -493,7 +495,7 @@ class CW305(TargetTemplate, ChipWhispererCommonInterface):
             Added simpleserial_write to CW305
         """
         if cmd == 'p':
-            self.loadInput(data)
+            # self.loadInput(data)
             self.go()
         elif cmd == 'k':
             self.loadEncryptionKey(data)
